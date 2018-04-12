@@ -23,7 +23,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/style.css">
 
   <!-- Favicon
@@ -32,16 +32,38 @@
 
 </head>
 <body>
-    <header>
-        <div class="logo">
-          
+    <div id="side-panel" class="">
+      <a class="u-pull-right" href=""><i class="far fa-times-circle"></i></a>
+      <ul id="menu">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">PROJECTS</a></li>
+        <li><a href="#">BLOG</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+      <br>
+      <p></p>
+      <div id="social-icons" class="container">
+        <div class="twelve columns">
+          <a href=""><i class="fab fa-github"></i></a>
+          <a href=""><i class="fab fa-google-plus"></i></a>
+          <a href=""><i class="fab fa-twitter"></i></a>
+          <a href=""><i class="fab fa-youtube"></i></a>
+          <a href=""><i class="fab fa-linkedin-in"></i></a>
         </div>
-        <div class="menu">
-          
-        </div>
-    </header>
+      </div>
+    </div> <!-- End main-menu -->
 
-    <div class="main-body">
+  <div id="body">
+    <header id="main-header">
+      <div class="logo">
+        <h2>Hola Mundo</h2>
+      </div>
+      
+      <a href="" id="pull"><i class="far fas fa-bars"></i></a>
+    </header> 
+
+    <div id="main-body" class="">
         <div class="hero">
           <h1></h1>
           <h5></h5>
@@ -138,7 +160,7 @@
           <img src="" alt="">
         </footer>
     </div>
-
+  </div> <!-- End body -->
 </body>
    <!-- Jscripts -->
    <script type="text/JavaScript" src="js/jquery-3.3.1.min.js" >
