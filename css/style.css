@@ -45,7 +45,6 @@ html, body {
 	background-color: #fdfdfd;
 }
 
-wor
 #works-body {
 	display: inline-block;
 	background-color: cyan;
@@ -65,8 +64,8 @@ wor
 
 /* --------------------------------------- */
 .section-padding {
-	padding-left: 15em;
-	padding-right: 15em;
+	padding-left: 5em;
+	padding-right: 5em;
 	padding-top: 5em;
 	padding-bottom: 5em;
 }
