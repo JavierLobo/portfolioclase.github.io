@@ -19,8 +19,9 @@ html, body {
 	background-size: cover;
 }
 
-#toolbar {
-	display: block;
+.toolbar {
+	position: relative;
+	height: 100%;
 }
 
 #hero {
@@ -34,30 +35,47 @@ html, body {
 	height: 100%;
 }
 
-#main-body {
-
-}
-
 #presentation {
 	background-color: #f3f3f6;
-	padding-left: 15em;
-	padding-right: 15em;
-	padding-top: 5em;
-	padding-bottom: 5em;
 	width: auto;
 }
 
 #works {
+	position: relative;
 	background-color: #fdfdfd;
-	padding: 5em;
 }
 
+wor
+#works-body {
+	display: inline-block;
+	background-color: cyan;
+	width: 100%;
+}
+
+#footer {
+	padding-left: 15em;
+	padding-right: 15em;
+	padding-top: 2.5em;
+	padding-bottom: 2.5em;
+
+	color: #7e7d7d;
+	background: #f1f0f0;
+}
+
+
 /* --------------------------------------- */
+.section-padding {
+	padding-left: 15em;
+	padding-right: 15em;
+	padding-top: 5em;
+	padding-bottom: 5em;
+}
+
 .txt-l {
 	text-align: left;
 }
 
-.text-center {
+.txt-c {
 	text-align: center;
 }
 
