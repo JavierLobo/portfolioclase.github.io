@@ -35,12 +35,17 @@ html, body {
 }
 
 #main-body {
+
+}
+
+#presentation {
+	background-color: #E3DAC9;
 	padding-left: 15em;
 	padding-right: 15em;
 	padding-top: 5em;
 	padding-bottom: 5em;
+	width: auto;
 }
-
 
 /* --------------------------------------- */
 
