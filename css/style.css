@@ -39,7 +39,7 @@ html, body {
 }
 
 #presentation {
-	background-color: #E3DAC9;
+	background-color: #f3f3f6;
 	padding-left: 15em;
 	padding-right: 15em;
 	padding-top: 5em;
@@ -47,11 +47,24 @@ html, body {
 	width: auto;
 }
 
+#works {
+	background-color: #fdfdfd;
+	padding: 5em;
+}
+
 /* --------------------------------------- */
+.txt-l {
+	text-align: left;
+}
 
 .text-center {
 	text-align: center;
 }
+
+.txt-r {
+	text-align: right;
+}
+
 
 /* Larger than mobile */
 @media (min-width: 400px) {
