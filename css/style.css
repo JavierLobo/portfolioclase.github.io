@@ -4,8 +4,11 @@ html, body {
 	height: 100%;
 }
 
-#body {
-	position: left;
+#principal-body {
+	width: auto;
+}
+
+#secundary-body {
 	width: auto;
 }
 
