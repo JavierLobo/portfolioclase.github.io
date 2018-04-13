@@ -1,3 +1,4 @@
+
 html, body {
 	margin: 0 auto;
 	width: 100%;
@@ -5,20 +6,46 @@ html, body {
 }
 
 #principal-body {
-	width: auto;
-}
 
-#secundary-body {
-	width: auto;
 }
 
 #main-header {
+	width: auto;
 	padding: 3rem;
 	background: url("https://picsum.photos/1280/720/?random") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+
+#toolbar {
+	display: block;
+}
+
+#hero {
+	padding-top: 15em;
+	padding-bottom: 15em;
+}
+
+#secundary-body {
+	background-color: #bababa;
+	width: 100%;
+	height: 100%;
+}
+
+#main-body {
+	padding-left: 15em;
+	padding-right: 15em;
+	padding-top: 5em;
+	padding-bottom: 5em;
+}
+
+
+/* --------------------------------------- */
+
+.text-center {
+	text-align: center;
 }
 
 /* Larger than mobile */
